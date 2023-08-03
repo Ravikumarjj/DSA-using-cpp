@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
 public:
     int Search(vector<int>& nums, int target) {
 
@@ -15,4 +15,5 @@ public:
             return l;
         return -1;
     }
-};
+}; 
+*/
