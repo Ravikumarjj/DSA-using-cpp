@@ -6,7 +6,7 @@ class Solution{
     bool isAnagram(string a, string b){
         
         // Your code here
-        int no_of_char = 256;
+        int no_of_char = 257;
         int count1[no_of_char]={0};
         int count2[no_of_char]={0};
         int i; //to use its updated value out of the loop 
