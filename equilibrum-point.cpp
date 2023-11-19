@@ -4,8 +4,7 @@ class Solution{
     // a: input array
     // n: size of array
     int equilibriumPoint(long long a[], int n) {
-    
-        // Your code here
+
         if(n==1)
         return 1;
         
