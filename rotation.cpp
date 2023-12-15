@@ -1,4 +1,7 @@
 //User function template for C++
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution{
 public:	
 	int findKRotation(int arr[], int n) {
