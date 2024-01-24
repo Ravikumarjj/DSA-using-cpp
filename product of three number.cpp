@@ -1,4 +1,4 @@
-// Online C++ compiler to run C++ program online
+// Product of three number -- my first codeforce question
 #include <bits/stdc++.h>
 using namespace std;
 void findThreeNumbers(int n){
