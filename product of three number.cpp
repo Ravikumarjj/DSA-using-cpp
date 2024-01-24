@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 void findThreeNumbers(int n){
-    int a=1,b=1,c=1;
+    int a=n,b=n,c=n;
     for(int i=2;i*i<=n;i++){
         if(n%i==0){
             a=i;
@@ -13,7 +13,7 @@ void findThreeNumbers(int n){
     for(int i=2;i*i<=n;i++){
         if(n%i==0){
             if(i!=a){
-                b=i;
+                b=min(b,i);
             }
             if((n/i)!=i){
                 if((n/i)!=a){
@@ -23,7 +23,7 @@ void findThreeNumbers(int n){
         }
     }
     c=n/b;
-    if(a!=b && b!=c && c!=1){
+    if(a!=b && b!=c && c!=a && c>1){
         cout<<"YES"<<endl;
         cout<<a<<" "<<b<<" "<<c<<endl;
     }
